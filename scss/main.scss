@@ -1,4 +1,228 @@
+/* RESETEO */
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* FUENTES */
+@font-face {
+    font-family: "MedievalSharp";
+    src: url(../fuentes/MedievalSharp-Regular.ttf);
+}
+
+/* HEADER BOOTSTRAP */
+.navbar-collapse {
+    font-family: "MedievalSharp";
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ancho-limitado {
+    padding-left: 3%;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #A50202 !important;
+}
+
+/* ESTILO DEL INDEX // ESTILO DEL INDEX // ESTILO DEL INDEX */
+
+#main-index {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#dndtitle1 {
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    width: 600px;
+    text-align: center;
+    color: #A50202;
+    font-size: 100px;
+}
+
+.maintext {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-family: "MedievalSharp";
+    font-size: 180%;
+}
+
+.banner-principal {
+    display: flex;
+    background-image: url(../recursos/tiamat-email.jpg);
+    background-size: cover;
+}
+
+.img400x400 {
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+/* ESTILO DE LA PAGINA QUE ES // ESTILO DE LA PAGINA QUE ES // ESTILO DE LA PAGINA QUE ES */
+#main-que-es {
+    background-color: black;
+    color: whitesmoke;
+}
+
+/* ESTILO DE LA PAGINA COMO JUGAR // ESTILO DE LA PAGINA COMO JUGAR // ESTILO DE LA PAGINA COMO JUGAR */
+#main-como-jugar {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#fuentecomojugar {
+    margin: 20px;
+}
+
+#linkfuente {
+    color: blue;
+}
+
+.h2main {
+    color: #A50202;
+    margin: 20px;
+    font-family: "MedievalSharp";
+    font-size: 35px;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+.h1titulo {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-family: "MedievalSharp";
+    font-size: 50px;
+}
+
+
+/* ESTILO DE LA PAGINA MATERIAL DE JUEGO // ESTILO DE LA PAGINA MATERIAL DE JUEGO // ESTILO DE LA PAGINA MATERIAL DE JUEGO */
+
+
+#main-material {
+    background-color: black;
+    color: whitesmoke;
+}
+
+#fuente-material {
+    margin: 20px;
+}
+
+#linkfuentematerial {
+    color: blue;
+}
+
+.underlined-li {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.accordion {
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-bg: black;
+    --bs-accordion-btn-color: #A50202;
+    font-family: "MedievalSharp";
+    font-size: 24px;
+}
+
+.accordion-button {
+    font-family: "MedievalSharp";
+    font-size: 26px;
+}
+
+/* ESTILO DE LA PAGINA CREADORES // ESTILO DE LA PAGINA CREADORES // ESTILO DE LA PAGINA CREADORES */
+
+#maincreadores {
+    background-color: black;
+    color: whitesmoke;
+}
+
+
+/* ESTILO DEL FOOTER // ESTILO DEL FOOTER // ESTILO DEL FOOTER */
+
+.footer {
+    background-color: #A50202;
+    color: black;
+}
+
+.footertext {
+    font-family: "MedievalSharp";
+    font-size: 30px;
+}
+
+.li-footer {
+    display: inline;
+}
+
+#main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+        "gridimg1 gridimg2 gridimg3"
+        "boton1 boton2 boton3"
+    ;
+    column-gap: 100px;
+    height: 1050px;
+    width: 1800px;
+    margin: auto;
+
+}
+
+.gridimg {
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
+
+}
+
+.gridimg1 {
+    grid-area: gridimg1;
+    background-image: url("../recursos/RAZAS.jpg")
+}
+
+.gridimg2 {
+    grid-area: gridimg2;
+    background-image: url("../recursos/CLASES.png");
+}
+
+.gridimg3 {
+    grid-area: gridimg3;
+    background-image: url("../recursos/HECHIZOS.jpg");
+}
+
+.boton1 {
+    grid-area: boton1;
+    justify-self: center;
+}
+
+.imgboton1:hover {
+    box-shadow: -15px -15px whitesmoke inset;
+}
+
+.boton2 {
+    grid-area: boton2;
+    justify-self: center;
+}
+
+.imgboton2:hover {
+    box-shadow: -15px -15px whitesmoke inset;
+}
+
+.boton3 {
+    grid-area: boton3;
+    justify-self: center;
+}
+
+.imgboton3:hover {
+    box-shadow: -15px -15px whitesmoke inset;
 }
