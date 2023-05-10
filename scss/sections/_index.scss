@@ -1,0 +1,35 @@
+#main-index {
+    background-color: black;
+    color: $color-letra;
+}
+
+#dndtitle1 {
+    font-family: "MedievalSharp" ;
+    display: flex;
+    margin: 0px;
+    padding-left: 2%;
+    width: 25%;
+    text-align: center;
+    color: $color-principal;
+    font-size: 300%;
+}
+
+.maintext {
+    margin-left: 20px;
+    padding-bottom: 20px;
+    font-family: "MedievalSharp";
+    font-size: 180%;
+}
+
+.banner-principal {
+    display: flex;
+    background-image: url(../recursos/tiamat-email.jpg);
+    background-size: cover;
+}
+
+.img400x400 {
+    margin: 15px;
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}

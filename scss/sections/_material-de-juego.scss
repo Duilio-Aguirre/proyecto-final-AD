@@ -1,0 +1,30 @@
+#main-material {
+    background-color: black;
+    color: $color-letra;
+}
+
+#fuente-material {
+    margin: 20px;
+}
+
+#linkfuentematerial {
+    color: blue;
+}
+
+.underlined-li {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.accordion {
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-bg: black;
+    --bs-accordion-btn-color: $color-principal;
+    font-family: "MedievalSharp";
+    font-size: 24px;
+}
+
+.accordion-button {
+    font-family: "MedievalSharp";
+    font-size: 26px;
+}

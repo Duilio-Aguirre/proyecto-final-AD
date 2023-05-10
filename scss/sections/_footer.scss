@@ -1,0 +1,20 @@
+.footer {
+    background-color: $color-principal;
+    color: black;
+}
+
+.footertext {
+    font-family: "MedievalSharp";
+    font-size: 30px;
+}
+
+.li-footer {
+    display: inline;
+}
+
+.formulario {
+    &:focus {
+outline: 2px solid orange;
+    }
+    
+}

@@ -1,0 +1,27 @@
+.navbar-collapse {
+    font-family: "MedievalSharp";
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ancho-limitado {
+    padding-left: 3%;
+}
+
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: $color-principal !important;
+}
+
+.nav-link {
+    &:hover {
+        color: whitesmoke;
+    }
+}
+
+.logo-header {
+    &:hover {
+        -webkit-transform:scale(1.1);transform:scale(1.1);;
+        transition: all 2sec;
+    }
+}
