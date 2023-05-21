@@ -4,7 +4,7 @@
 }
 
 #dndtitle1 {
-    font-family: "MedievalSharp" ;
+    font-family: "MedievalSharp";
     display: flex;
     margin: 0px;
     padding-left: 2%;
@@ -14,9 +14,17 @@
     font-size: 300%;
 }
 
+.contenedor-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 .maintext {
-    margin-left: 20px;
-    padding-bottom: 20px;
+    max-width: 1400px;
+    text-align: center;
+    padding-bottom: 25px;
     font-family: "MedievalSharp";
     font-size: 180%;
 }
@@ -27,9 +35,19 @@
     background-size: cover;
 }
 
+div {
+    .col-sm-3 {
+        padding-bottom: 15px;
+    }
+}
+
 .img400x400 {
     margin: 15px;
     height: 300px;
     width: 300px;
     object-fit: cover;
+}
+
+p {
+    margin-bottom: 0;
 }
